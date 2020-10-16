@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1602886453 source:c:\codeblocks\servicenotebooks\marcas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"notebooks.h"
+	"tipos.h"
+
+1602891107 c:\codeblocks\servicenotebooks\notebooks.h
+	"marcas.h"
+	"tipos.h"
+
+1602887585 c:\codeblocks\servicenotebooks\marcas.h
+
+1602886456 c:\codeblocks\servicenotebooks\tipos.h
+
+1602886455 source:c:\codeblocks\servicenotebooks\tipos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"notebooks.h"
+	"marcas.h"
+
+1602890156 source:c:\codeblocks\servicenotebooks\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"notebooks.h"
+	"marcas.h"
+	"tipos.h"
+	"serviciosTrabajosNote.h"
+
+1602888841 source:c:\codeblocks\servicenotebooks\notebooks.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"notebooks.h"
+	"marcas.h"
+	"tipos.h"
+
+1602890586 c:\codeblocks\servicenotebooks\serviciostrabajosnote.h
+
+1602890808 source:c:\codeblocks\servicenotebooks\serviciostrabajosnote.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"notebooks.h"
+	"tipos.h"
+	"marcas.h"
+	"serviciosTrabajosNote.h"
+
