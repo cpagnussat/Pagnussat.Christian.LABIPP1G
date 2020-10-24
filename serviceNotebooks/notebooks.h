@@ -1,5 +1,8 @@
 #include "marcas.h"
 #include "tipos.h"
+#include "utn.h"
+
+
 
 #ifndef NOTEBOOKS_H_INCLUDED
 #define NOTEBOOKS_H_INCLUDED
@@ -8,7 +11,7 @@ typedef struct //fecha
 {
     int dia;
     int mes;
-    char anio;
+    int anio;
 }eFecha;
 
 
@@ -39,3 +42,11 @@ int modificarNotebook(eNotebook note[], eTipo tipos[], eMarca marca[], int tam);
 
 int ordenarNotebooksPrecio(eNotebook note[], int tam);
 
+//informes
+
+int mostrarNotebookPorTipo(eTipo tipos[], eMarca marcas[], eNotebook note[],int tam);
+int mostrarNotebookPorMarca(eTipo tipos[], eMarca marcas[], eNotebook note[],int tam);
+int mostrarNotebookBarata(eNotebook note[], eTipo tipos[], eMarca marcas[], int tam);
+int mostrarNotebooksSeparadasPorMarca(eTipo tipos[], eMarca marcas[], eNotebook note[] ,int tam);
+int mostrarNotePorTipoyMarca(eTipo tipos[], eMarca marcas[], eNotebook note[] ,int tam);
+int mostrarMarcaMasElegida(eTipo tipos[], eMarca marcas[], eNotebook note[] ,int tam);

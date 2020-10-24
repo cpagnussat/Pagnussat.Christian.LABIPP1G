@@ -13,3 +13,4 @@ typedef struct //tipo
 
 int mostrarTipos(eTipo tipo[], int tam);
 void mostrarTipo(eTipo unTipo, int tam);
+int validarTipoID(eTipo tipo[], int tam, int id);

@@ -7,7 +7,7 @@
 #include "marcas.h"
 #include "tipos.h"
 #include "serviciosTrabajosNote.h"
-
+#include "utn.h"
 
 #define TAM 4
 
@@ -146,7 +146,51 @@ int main()
         case 'i': // listar trabajos
             mostrarTrabajos(trabajo,datosServicio,TAM);
             break;
-        case 'j':
+        case 'j': // mostrar por tipo
+            mostrarNotebookPorTipo(datosTipo,datosMarca,note,TAM);
+            break;
+        case 'k': // mostrar por marca
+            mostrarNotebookPorMarca(datosTipo,datosMarca,note, TAM);
+            break;
+        case 'l': // listar mas barata/s
+             if(flagAlta == 0 )
+            {
+                printf("\nPrimero debe realizar el alta de alguna notebook...\n\n");
+            }
+            else
+            {
+            mostrarNotebookBarata(note,datosTipo,datosMarca,TAM);
+            }
+            break;
+        case 'm': // notebook separadas por marca
+            mostrarNotebooksSeparadasPorMarca(datosTipo,datosMarca,note,TAM);
+            break;
+        case 'n': // elegir un tipo y marca y mostrar las notebooks
+            mostrarNotePorTipoyMarca(datosTipo,datosMarca,note,TAM);
+            break;
+        case 'o': // marca mas elegida
+            if(flagAlta == 0 )
+            {
+                printf("\nPrimero debe realizar el alta de alguna notebook...\n\n");
+            }
+            else
+            {
+            mostrarMarcaMasElegida(datosTipo,datosMarca,note,TAM);
+            }
+            break;
+        case 'p': // trabajos por notebook
+            trabajosPorNotebook(datosTipo,datosMarca,note,trabajo,datosServicio,TAM);
+            break;
+        case 'q': // suma de los importes de los service
+            precioPorNotebook(datosTipo,datosMarca,note,trabajo,datosServicio,TAM);
+            break;
+        case 'r':
+            mostrarNotebooksPorServicio(datosTipo,datosMarca,note,trabajo,datosServicio,TAM);
+            break;
+        case 's':
+            mostrarServiciosPorFecha(datosTipo,datosMarca,note,trabajo,datosServicio,TAM);
+            break;
+        case 'z':
             printf("Confirma salida? Ingrese s/n: ");
             fflush(stdin);
             scanf("%c", &seguir);

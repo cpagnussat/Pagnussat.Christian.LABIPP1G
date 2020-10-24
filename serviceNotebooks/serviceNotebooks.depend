@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1602886453 source:c:\codeblocks\servicenotebooks\marcas.c
+1603477371 source:c:\codeblocks\servicenotebooks\marcas.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -7,15 +7,16 @@
 	"notebooks.h"
 	"tipos.h"
 
-1602891107 c:\codeblocks\servicenotebooks\notebooks.h
+1603494768 c:\codeblocks\servicenotebooks\notebooks.h
 	"marcas.h"
 	"tipos.h"
+	"utn.h"
 
-1602887585 c:\codeblocks\servicenotebooks\marcas.h
+1603477147 c:\codeblocks\servicenotebooks\marcas.h
 
-1602886456 c:\codeblocks\servicenotebooks\tipos.h
+1603477371 c:\codeblocks\servicenotebooks\tipos.h
 
-1602886455 source:c:\codeblocks\servicenotebooks\tipos.c
+1603477327 source:c:\codeblocks\servicenotebooks\tipos.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -23,7 +24,7 @@
 	"notebooks.h"
 	"marcas.h"
 
-1602890156 source:c:\codeblocks\servicenotebooks\main.c
+1603499678 source:c:\codeblocks\servicenotebooks\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -32,8 +33,9 @@
 	"marcas.h"
 	"tipos.h"
 	"serviciosTrabajosNote.h"
+	"utn.h"
 
-1602888841 source:c:\codeblocks\servicenotebooks\notebooks.c
+1603499678 source:c:\codeblocks\servicenotebooks\notebooks.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -41,10 +43,12 @@
 	"notebooks.h"
 	"marcas.h"
 	"tipos.h"
+	"utn.h"
 
-1602890586 c:\codeblocks\servicenotebooks\serviciostrabajosnote.h
+1603499330 c:\codeblocks\servicenotebooks\serviciostrabajosnote.h
+	"notebooks.h"
 
-1602890808 source:c:\codeblocks\servicenotebooks\serviciostrabajosnote.c
+1603499558 source:c:\codeblocks\servicenotebooks\serviciostrabajosnote.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -53,4 +57,13 @@
 	"tipos.h"
 	"marcas.h"
 	"serviciosTrabajosNote.h"
+	"utn.h"
+
+1603466815 c:\codeblocks\servicenotebooks\utn.h
+
+1603466864 source:c:\codeblocks\servicenotebooks\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
 

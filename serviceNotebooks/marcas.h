@@ -15,3 +15,4 @@ typedef struct //marca
 
 int mostrarMarcas(eMarca movil[], int tam);
 void mostrarMarca(eMarca unaMarca, int tam);
+int validarMarcaID(eMarca marca[], int tam, int id);

@@ -6,6 +6,24 @@
 #include "notebooks.h"
 #include "marcas.h"
 
+int validarTipoID(eTipo tipo[], int tam, int id)
+{
+	int retorno = 1;
+
+	if( tipo != NULL && tam > 0)
+	{
+		for( int i = 0 ; i < tam ; i++ )
+		{
+			if(tipo[i].id == id )
+			{
+				retorno = 0;
+				break;
+			}
+		}
+	}
+
+	return retorno;
+}
 
 int mostrarTipos(eTipo tipo[], int tam)
 {
